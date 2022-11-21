@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
   <body>
+    <p>All Steps</p>
+    <ul>
+      <a href="#Ingredients">Ingredients</a>
+      <br />
+      <a href="#Steps">Steps</a>
+      <br />
+      <a href="#Subscribe">Subscribe</a>
+    </ul>
     <h1>Good Old Fashioned Pancakes</h1>
-    <img src="pancakes.jpg" width="500" height="500" />
+    <img src="pancakes.jpg" width="250" height="250" />
 
-    <h2>Ingredients</h2>
+    <h2 id="Ingredients">Ingredients</h2>
     <ol>
       <li>
         <input type="checkbox" />
@@ -18,7 +26,7 @@
 
       <li>
         <input type="checkbox" />
-        <label>.25 teaspoon salt, or more to taste</label><br />
+        <label>1 teaspoon salt, or more to taste</label><br />
       </li>
 
       <li>
@@ -28,7 +36,7 @@
 
       <li>
         <input type="checkbox" />
-        <label>1.25cups Milk</label><br />
+        <label>1.25 cups Milk</label><br />
       </li>
 
       <li>
@@ -41,5 +49,25 @@
         <label>3 tablespoons butter, melted</label><br />
       </li>
     </ol>
+
+    <h2 id="Steps">Steps</h2>
+    <p><b>Step 1</b></p>
+    <p>
+      In a large bowl, sift together the flour, the baking powder, salt and
+      sugar. Make a well in the center and pour the milk, egg and melted butter:
+      mix until smooth
+    </p>
+    <p><b>Step 2</b></p>
+    <p>
+      Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or
+      scoop the batter onto the griddle, using approximately 1/4 cup for each
+      pancake. Brown on both sides and serve hot.
+    </p>
+    <hr />
+    <p id="Subscribe"><b>Subscribe</b></p>
+    <form>
+      <input type="text" id="email" name="email" placeholder="Enter Email" />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
